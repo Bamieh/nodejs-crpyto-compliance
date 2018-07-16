@@ -2,7 +2,7 @@
 import * as cryptoComplianceReviewTools from '../src';
 
 describe('Sanity Check', function() {
-  it('exports git', function() {
+  it('exports review tools', function() {
     expect(cryptoComplianceReviewTools).to.be.an("object")
   })
 })
